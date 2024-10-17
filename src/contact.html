@@ -23,7 +23,29 @@
         </div>
     </header>
 
-    <h1>Contact Page</h1>
+    <section class="py-20 px-20">
+        <h2 class="text-4xl font-bold"><span class="special">Contact</span> Us</h2>
+        <p class="text-lg mt-5">Please fill out the form below</p>
+
+        <form class="flex flex-col gap-10 mt-10">
+            <div class="w-[90%] flex flex-col gap-2">
+                <label for="name">Name:</label>
+                <input type="text" name="" id="name" class="border border-[#ccc] w-full px-4 py-2 rounded">
+            </div>
+
+            <div class="w-[90%] flex flex-col gap-2">
+                <label for="name">Email:</label>
+                <input type="email" name="" id="email" class="border  border-[#ccc] w-full px-4 py-2 rounded">
+            </div>
+
+            <div class="w-[90%] flex flex-col gap-2">
+                <label for="message">Message:</label>
+                <textarea name="" id="message" class="border border-[#ccc] h-52 rounded"></textarea>
+            </div>
+
+            <button type="submit" class="border w-fit py-4 px-8 text-center bg-[#333] text-white rounded cursor-pointer"> Submit </button>
+        </form>
+    </section>
 
     <footer class="bg-[#333] flex items-center justify-center py-5">
         <p class="text-white">Univelcity Hospital &copy; 2024 </p>
