@@ -636,10 +636,6 @@ video {
   width: 100%;
 }
 
-.w-\[\] {
-  width: ;
-}
-
 .w-\[90\%\] {
   width: 90%;
 }
@@ -725,22 +721,11 @@ video {
   border-color: rgb(5 150 105 / var(--tw-border-opacity));
 }
 
-.border-\[\] {
-  border-color: ;
-}
-
-.border-\[\#\] {
-  border-color: #;
-}
-
 .border-\[\#777\] {
   --tw-border-opacity: 1;
   border-color: rgb(119 119 119 / var(--tw-border-opacity));
 }
 
-.border-\[\#cc\] {
-  border-color: #cc;
-}
 
 .border-\[\#ccc\] {
   --tw-border-opacity: 1;
