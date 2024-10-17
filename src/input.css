@@ -9,3 +9,11 @@
 .special{
     color: #f7c08a;
 }
+.featuresBox{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 30px;
+    border: 2px solid red;
+}
